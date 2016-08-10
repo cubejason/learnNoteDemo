@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KeywindowViewController.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   
+}
+- (IBAction)clickKeywindow:(id)sender {
+
+    KeywindowViewController *keywindow = [[KeywindowViewController alloc]init];
+    [self.navigationController pushViewController:keywindow animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

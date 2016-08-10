@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4425A94E1D5B17D20015EE98 /* KeywindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425A94A1D5B17D20015EE98 /* KeywindowViewController.m */; };
+		4425A94F1D5B17D20015EE98 /* KeywindowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4425A94B1D5B17D20015EE98 /* KeywindowViewController.xib */; };
+		4425A9501D5B17D20015EE98 /* testWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4425A94D1D5B17D20015EE98 /* testWindow.m */; };
 		44788D541D55B87800C898A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44788D531D55B87800C898A7 /* main.m */; };
 		44788D571D55B87800C898A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44788D561D55B87800C898A7 /* AppDelegate.m */; };
 		44788D5A1D55B87800C898A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44788D591D55B87800C898A7 /* ViewController.m */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4425A9491D5B17D20015EE98 /* KeywindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeywindowViewController.h; sourceTree = "<group>"; };
+		4425A94A1D5B17D20015EE98 /* KeywindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeywindowViewController.m; sourceTree = "<group>"; };
+		4425A94B1D5B17D20015EE98 /* KeywindowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeywindowViewController.xib; sourceTree = "<group>"; };
+		4425A94C1D5B17D20015EE98 /* testWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testWindow.h; sourceTree = "<group>"; };
+		4425A94D1D5B17D20015EE98 /* testWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testWindow.m; sourceTree = "<group>"; };
 		44788D4F1D55B87800C898A7 /* goldenDust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goldenDust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44788D531D55B87800C898A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44788D551D55B87800C898A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4425A9481D5B17D20015EE98 /* keywindow */ = {
+			isa = PBXGroup;
+			children = (
+				4425A9491D5B17D20015EE98 /* KeywindowViewController.h */,
+				4425A94A1D5B17D20015EE98 /* KeywindowViewController.m */,
+				4425A94B1D5B17D20015EE98 /* KeywindowViewController.xib */,
+				4425A94C1D5B17D20015EE98 /* testWindow.h */,
+				4425A94D1D5B17D20015EE98 /* testWindow.m */,
+			);
+			path = keywindow;
+			sourceTree = "<group>";
+		};
 		44788D461D55B87800C898A7 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +126,7 @@
 				44788D581D55B87800C898A7 /* ViewController.h */,
 				44788D591D55B87800C898A7 /* ViewController.m */,
 				44788D5B1D55B87800C898A7 /* Main.storyboard */,
+				4425A9481D5B17D20015EE98 /* keywindow */,
 				44788D5E1D55B87800C898A7 /* Assets.xcassets */,
 				44788D601D55B87800C898A7 /* LaunchScreen.storyboard */,
 				44788D631D55B87800C898A7 /* Info.plist */,
@@ -243,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4425A94F1D5B17D20015EE98 /* KeywindowViewController.xib in Resources */,
 				44788D621D55B87800C898A7 /* LaunchScreen.storyboard in Resources */,
 				44788D5F1D55B87800C898A7 /* Assets.xcassets in Resources */,
 				44788D5D1D55B87800C898A7 /* Main.storyboard in Resources */,
@@ -270,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4425A94E1D5B17D20015EE98 /* KeywindowViewController.m in Sources */,
+				4425A9501D5B17D20015EE98 /* testWindow.m in Sources */,
 				44788D5A1D55B87800C898A7 /* ViewController.m in Sources */,
 				44788D571D55B87800C898A7 /* AppDelegate.m in Sources */,
 				44788D541D55B87800C898A7 /* main.m in Sources */,
@@ -498,6 +522,7 @@
 				44788D7E1D55B87800C898A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44788D7F1D55B87800C898A7 /* Build configuration list for PBXNativeTarget "goldenDustTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				44788D811D55B87800C898A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44788D821D55B87800C898A7 /* Build configuration list for PBXNativeTarget "goldenDustUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				44788D841D55B87800C898A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

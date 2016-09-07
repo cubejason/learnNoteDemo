@@ -52,6 +52,7 @@
                 <constraint firstItem="pdM-Y9-O60" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ewh-H5-fpX"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="148" y="107"/>
         </view>
     </objects>
 </document>
